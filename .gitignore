@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML / datasets
+data/
+*.csv
+*.tsv
+*.txt
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
