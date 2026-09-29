@@ -1,3 +1,5 @@
 Dataset,Sensors/Placement,Subjects,Activities,Sampling Rate,Data Form
 UCI-HAR,Smartphone (waist),30,6,50 Hz,pre-extracted features (561)
 WISDM,Smartphone (pocket),36,6,~20 Hz (nominal),pre-extracted features (43)
+PAMAP2,3x IMU (hand/chest/ankle) + HR,9,12,100 Hz,raw signal
+MHEALTH,3x IMU (chest/ankle/arm) + ECG,10,12,50 Hz,raw signal

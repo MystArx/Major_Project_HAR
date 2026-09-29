@@ -5,8 +5,6 @@ Source: Banos et al., 2014, "mHealthDroid: A Novel Framework for Agile
 Development of Mobile Health Applications", IWAAL.
 Official host (UCI ML Repository): https://doi.org/10.24432/C5TW22
 
-*** NOT YET DOWNLOADED in this sandbox -- see note at bottom of file. ***
-
 Expected folder layout under data/raw/MHEALTH/ once extracted:
     mHealth_subject1.log ... mHealth_subject10.log   (10 subjects)
 
@@ -102,8 +100,4 @@ if __name__ == "__main__":
     print(f"Subjects: {df['subject'].nunique()}  Activities: {df['activity_name'].nunique()}")
     print(df["activity_name"].value_counts())
 
-# NOTE: same network restriction as pamap2.py -- archive.ics.uci.edu is
-# blocked from this sandbox, and no GitHub mirror carrying the full raw
-# .log files turned up. MHEALTH is much smaller than PAMAP2 (~40MB total)
-# so this is genuinely just a "download the zip yourself" step, not a
-# fundamental blocker -- link above.
+

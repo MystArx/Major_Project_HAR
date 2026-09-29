@@ -6,7 +6,7 @@ for Activity Monitoring", ISWC.
 Official host (UCI ML Repository): https://doi.org/10.24432/C5NW2H
 Direct zip (as of writing): https://archive.ics.uci.edu/static/public/231/pamap2+physical+activity+monitoring.zip
 
-*** NOT YET DOWNLOADED in this sandbox -- see note at bottom of file. ***
+
 
 Expected folder layout under data/raw/PAMAP2/ once you extract the zip:
     Protocol/subject101.dat ... subject109.dat   (9 subjects)
@@ -115,11 +115,4 @@ if __name__ == "__main__":
     print(f"Subjects: {df['subject'].nunique()}  Activities: {df['activity_name'].nunique()}")
     print(df["activity_name"].value_counts())
 
-# NOTE: this sandbox's outbound network is restricted to package-registry
-# and GitHub domains for security reasons -- archive.ics.uci.edu is not
-# reachable from here, and no GitHub mirror with the full raw PAMAP2 .dat
-# files (~700MB across 9 subjects) turned up in a search, which is
-# expected since files that size usually aren't committed to plain git
-# repos. Download the official zip yourself (link above, ~700MB) and
-# place it at data/raw/PAMAP2/ -- this loader is written directly from
-# the dataset's documented column layout and is ready to run as-is.
+
