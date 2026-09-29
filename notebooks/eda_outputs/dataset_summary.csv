@@ -1,0 +1,3 @@
+Dataset,Sensors/Placement,Subjects,Activities,Sampling Rate,Data Form
+UCI-HAR,Smartphone (waist),30,6,50 Hz,pre-extracted features (561)
+WISDM,Smartphone (pocket),36,6,~20 Hz (nominal),pre-extracted features (43)
